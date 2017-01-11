@@ -1,4 +1,20 @@
 Rails.application.routes.draw do
+  get 'home/index'
+  
+  get 'blogs' => 'blogs#index'
+  
+  post 'blogs/create' => 'blogs#create'
+  
+  get 'blogs/new'
+  
+  get 'posts/:id' => 'blogs#show'
+  
+  get 'posts/edit/:id' => 'blogs#edit'
+  
+  put 'posts/update' => 'blogs#update'
+  
+  get 'posts/delete/:id' => 'blogs#delete'
+
   root 'home#index'
 
   # The priority is based upon order of creation: first created -> highest priority.

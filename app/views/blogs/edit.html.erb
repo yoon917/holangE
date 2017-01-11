@@ -1,0 +1,12 @@
+<%= form_tag '/posts/update', method: 'put' do %>
+    <input type="hidden" name="id" value="<%=@post.id%>">
+    <div class='title'>
+    제목: <input type="text" name="title" value="<%= @post.title %>">
+    </div>
+    
+    <div>
+    내용: <textarea cols="40" rows="20" name="content"><%= @post.content %> </textarea>
+    </div>
+    
+    <input type="submit" value="Click!">
+<% end %>

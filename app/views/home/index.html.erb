@@ -1,11 +1,11 @@
     
 
-    <header>
+    <header style="background-image:url(<%= asset_path 'header.jpg' %>)">
         <div class="header-content">
             <div class="header-content-inner">
-                <h1 id="homeHeading">Your Favorite Source of Free Bootstrap Themes</h1>
+                <h1 id="homeHeading">Whatever You Imagine<br> It Comes True!</h1>
                 <hr>
-                <p>Start Bootstrap can help you build better websites using the Bootstrap CSS framework! Just download your template and start going, no strings attached!</p>
+                <p>Just do it!</p>
                 <a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
             </div>
         </div>
@@ -15,10 +15,13 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">We've got what you need!</h2>
+                    <i class="fa fa-3x fa-diamond sr-icons"></i>
+                    <h2 class="section-heading">Hyuk Jun Yoon</h2>
                     <hr class="light">
-                    <p class="text-faded">Start Bootstrap has everything you need to get your new website up and running in no time! All of the templates and themes on Start Bootstrap are open source, free to download, and easy to use. No strings attached!</p>
-                    <a href="#services" class="page-scroll btn btn-default btn-xl sr-button">Get Started!</a>
+                    <p class="text-faded col-md-4"><span class="basic_info_heading">Birth</span> <br> 1991.09.17<br> South Korea</p>
+                    <p class="text-faded col-md-4"><span class="basic_info_heading">Address</span> <br> 15-46, Hwayang-dong, Gwangjin-gu,Seoul,<br>South Korea </p>
+                    <p class="text-faded col-md-4"><span class="basic_info_heading">Contact</span> <br> +82 10-9290-0170 <br> holangnabe@gmail.com</p>
+                    <p class="col-lg-12"><a href="#services" class="page-scroll btn btn-default btn-xl sr-button">Get Started!</a></p>
                 </div>
             </div>
         </div>
@@ -35,28 +38,33 @@
         </div>
         <div class="container">
             <div class="row">
-                <div class="col-lg-3 col-md-6 text-center">
+                <div class="col-lg-6 col-md-6 text-center">
                     <div class="service-box">
-                        <i class="fa fa-4x fa-diamond text-primary sr-icons"></i>
-                        <h3>Sturdy Templates</h3>
-                        <p class="text-muted">Our templates are updated regularly so they don't break.</p>
+                        <i class="fa fa-4x fa-graduation-cap text-primary sr-icons"></i>
+                        <h3>Education</h3>
+                        <div class="row">
+                            <div class="col-sm-2" style="font-size:16px">Mar.2011~<br>Aug.2017(E)</div>
+                            <div class="col-sm-10" style="font-size:16px">Sungkyunkwan University<br>Global Business Administration</div>
+                        </div>
+                        <p class="text-muted" style="font-size:14px; text-align:left"><strong>Selected Coursework</strong>: Intermediate Accounting, Derivative Securities and Corporate Risk Management, Business Statistics I & II, Introduction to Databases, Entrepreneurship Theory and Practice, and so on.
+</p>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 text-center">
+                <div class="col-lg-6 col-md-6 text-center">
                     <div class="service-box">
                         <i class="fa fa-4x fa-paper-plane text-primary sr-icons"></i>
                         <h3>Ready to Ship</h3>
                         <p class="text-muted">You can use this theme as is, or you can make changes!</p>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 text-center">
+                <div class="col-lg-6 col-md-6 text-center">
                     <div class="service-box">
                         <i class="fa fa-4x fa-newspaper-o text-primary sr-icons"></i>
                         <h3>Up to Date</h3>
                         <p class="text-muted">We update dependencies to keep things fresh.</p>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 text-center">
+                <div class="col-lg-6 col-md-6 text-center">
                     <div class="service-box">
                         <i class="fa fa-4x fa-heart text-primary sr-icons"></i>
                         <h3>Made with Love</h3>
@@ -69,7 +77,7 @@
 
     <section class="no-padding" id="portfolio">
         <div class="container-fluid">
-            <div class="row no-gutter popup-gallery">
+            <div class="row no-gutter">
                 <div class="col-lg-4 col-sm-6">
                     <a href="assets/portfolio/fullsize/1.jpg" class="portfolio-box">
                         <%= image_tag "portfolio/thumbnails/1.jpg", class: 'img-responsive' %>
@@ -134,7 +142,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-lg-4 col-sm-6">
+                <div class="col-lg-4 col-sm-6 popup-gallery">
                     <a href="assets/portfolio/fullsize/5.jpg" class="portfolio-box">
                         <%= image_tag "portfolio/thumbnails/5.jpg", class: 'img-responsive' %>
                       
@@ -189,11 +197,11 @@
                 </div>
                 <div class="col-lg-4 col-lg-offset-2 text-center">
                     <i class="fa fa-phone fa-3x sr-contact"></i>
-                    <p>010-9290-0170</p>
+                    <p>+82 10-9290-0170</p>
                 </div>
                 <div class="col-lg-4 text-center">
                     <i class="fa fa-envelope-o fa-3x sr-contact"></i>
-                    <p><a href="mailto:your-email@your-domain.com">feedback@startbootstrap.com</a></p>
+                    <p><a href="mailto:your-email@your-domain.com">holangnabe@gmail.com</a></p>
                 </div>
             </div>
         </div>
